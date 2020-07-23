@@ -7,7 +7,7 @@ from tf_pose import common
 import cv2
 import numpy as np
 from tf_pose.estimator import TfPoseEstimator
-from tf_pose.networks import get_graph_path, model_whs
+from tf_pose.networks import get_graph_path, model_wh
 
 # Modules for 3D Pose Dectection
 sys.path.append('./tf_pose/lifting')
