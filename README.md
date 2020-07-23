@@ -56,6 +56,7 @@ $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ### Package Install
 
 Alternatively, you can install this repo as a shared package using pip.
+PS: I haven't tested this for 3D Pose Estimation yet
 
 ```bash
 $ git clone https://www.github.com/ildoonet/tf-openpose
